@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+    <header>
+
+    </header>
+    <section>
+        <form >
+            <fieldset>
+                <legend>Négyzet területe</legend>
+                <p>
+                    <label for="aoldal">Add meg a négyzet oldal hosszát!</label>
+                    <input type="number" name="aold" id="aoldal">
+                </p>
+                <p>
+                    <input type="button" value="Számold ki!" onclick= "calc()"">
+                </p>
+            </fieldset>
+        </form>
+        <p>
+            A négyzet területe <span id="ter"></span>
+        </p>
+        <p>
+            A négyzet kerülete <span id="ker"></span>
+        </p>
+    </section>
+    </main>
+    <script src="negyzet.js"></script>
+</body>
+</html>
